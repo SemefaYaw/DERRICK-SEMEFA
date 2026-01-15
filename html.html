@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Health & Wellness Hub - Your complete guide to healthy living" />
+    <title>Health & Wellness Hub | Complete Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏥</text></svg>">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>HEALTH HUB.</h1>
+                <p>Your Wellness Partner.</p>
+            </div>
+            <ul class="nav-menu" id="mainNav">
+                <li><a href="#home" class="active" data-page="home">Home</a></li>
+                <li><a href="#nutrition" data-page="nutrition">Nutrition Guide</a></li>
+                <li><a href="#fitness" data-page="fitness">Fitness Plans</a></li>
+                <li><a href="#mental" data-page="mental">Mental Wellness</a></li>
+                <li><a href="#contact" data-page="contact">Contact Us</a></li>
+            </ul>
+            <div class="mobile-menu" id="mobileMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Tabs Navigation -->
+    <div class="tabs-nav">
+        <button class="tab-btn active" data-page="home">🏠 Home</button>
+        <button class="tab-btn" data-page="nutrition">🥗 Nutrition</button>
+        <button class="tab-btn" data-page="fitness">💪 Fitness</button>
+        <button class="tab-btn" data-page="mental">🧠 Mental Health</button>
+        <button class="tab-btn" data-page="contact">📞 Contact</button>
+    </div>
+
+    <!-- HOME PAGE -->
+    <main id="home" class="page-tabs active">
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Your Journey to Better Health Starts Here</h1>
+                <p>Evidence-based health information, personalized wellness plans, and expert guidance for your holistic well-being</p>
+                <button class="cta-button" data-page="nutrition">Explore Programs</button>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&h=500&fit=crop" alt="Diverse group of people exercising" width="800" height="500" />
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <h2>Our Health Programs</h2>
+            <div class="features-grid">
+                <div class="feature-card" data-page="nutrition">
+                    <div class="feature-icon">🥗</div>
+                    <h3>Nutrition Plans</h3>
+                    <p>Personalized diet recommendations based on your body type and goals</p>
+                    <span class="feature-link">Learn More →</span>
+                </div>
+                <div class="feature-card" data-page="fitness">
+                    <div class="feature-icon">💪</div>
+                    <h3>Workout Routines</h3>
+                    <p>Customized exercise programs for home & gym with video guides</p>
+                    <span class="feature-link">Get Started →</span>
+                </div>
+                <div class="feature-card" data-page="mental">
+                    <div class="feature-icon">🧠</div>
+                    <h3>Mental Wellness</h3>
+                    <p>Stress management techniques and mindfulness practices</p>
+                    <span class="feature-link">Explore Now →</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="health-tips">
+            <h2>Daily Health Tips</h2>
+            <div class="tips-container">
+                <div class="tip">
+                    <h3>💧 Stay Hydrated</h3>
+                    <p>Drink at least 8 glasses of water daily. Proper hydration improves digestion, skin health, and energy levels.</p>
+                </div>
+                <div class="tip">
+                    <h3>🏃‍♂️ Regular Exercise</h3>
+                    <p>30 minutes of moderate exercise daily can reduce the risk of chronic diseases by 40%.</p>
+                </div>
+                <div class="tip">
+                    <h3>🍎 Balanced Diet</h3>
+                    <p>Include all food groups: proteins, carbs, healthy fats, vitamins, and minerals in every meal.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- NUTRITION PAGE -->
+    <main id="nutrition" class="page-tabs">
+        <section class="page-hero">
+            <h1>Nutrition & Diet Guide</h1>
+            <p>Fuel your body with the right nutrients for optimal health</p>
+        </section>
+
+        <section class="nutrition-content">
+            <div class="content-row">
+                <div class="content-text">
+                    <h2>Balanced Diet Essentials</h2>
+                    <p>A healthy, balanced diet includes a variety of foods from all food groups to ensure you get all essential nutrients.</p>
+                    
+                    <div class="food-groups">
+                        <div class="food-group">
+                            <h3>🥩 Proteins</h3>
+                            <p>Essential for muscle repair and growth</p>
+                            <ul>
+                                <li>Lean meats (chicken, turkey)</li>
+                                <li>Fish (salmon, tuna)</li>
+                                <li>Legumes (beans, lentils)</li>
+                                <li>Dairy products</li>
+                            </ul>
+                        </div>
+                        <div class="food-group">
+                            <h3>🌾 Carbohydrates</h3>
+                            <p>Primary energy source for the body</p>
+                            <ul>
+                                <li>Whole grains (oats, brown rice)</li>
+                                <li>Fruits and vegetables</li>
+                                <li>Sweet potatoes</li>
+                                <li>Quinoa</li>
+                            </ul>
+                        </div>
+                        <div class="food-group">
+                            <h3>🥑 Healthy Fats</h3>
+                            <p>Essential for brain function and hormone production</p>
+                            <ul>
+                                <li>Avocados</li>
+                                <li>Nuts and seeds</li>
+                                <li>Olive oil</li>
+                                <li>Fatty fish</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section class="meal-plan">
+                <h2>Sample Daily Meal Plan</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Meal</th>
+                            <th>Time</th>
+                            <th>Food Items</th>
+                            <th>Calories</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Breakfast</td>
+                            <td>7:00 - 8:00 AM</td>
+                            <td>Oatmeal with fruits & nuts</td>
+                            <td>350 kcal</td>
+                        </tr>
+                        <tr>
+                            <td>Mid-Morning</td>
+                            <td>10:30 - 11:00 AM</td>
+                            <td>Apple with peanut butter</td>
+                            <td>200 kcal</td>
+                        </tr>
+                        <tr>
+                            <td>Lunch</td>
+                            <td>1:00 - 2:00 PM</td>
+                            <td>Grilled chicken salad with quinoa</td>
+                            <td>450 kcal</td>
+                        </tr>
+                        <tr>
+                            <td>Evening Snack</td>
+                            <td>4:30 - 5:00 PM</td>
+                            <td>Greek yogurt with berries</td>
+                            <td>150 kcal</td>
+                        </tr>
+                        <tr>
+                            <td>Dinner</td>
+                            <td>7:00 - 8:00 PM</td>
+                            <td>Fish with steamed vegetables</td>
+                            <td>400 kcal</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3"><strong>Total Daily Calories</strong></td>
+                            <td><strong>1550 kcal</strong></td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </section>
+
+            <section class="audio-section">
+                <h2>Listen to Nutrition Tips</h2>
+                <div class="audio-player">
+                    <audio id="nutritionAudio" controls>
+                        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg" />
+                        Your browser does not support the audio element.
+                    </audio>
+                    <div class="audio-controls">
+                        <button data-audio="nutritionAudio" data-action="play" class="audio-btn">▶️ Play</button>
+                        <button data-audio="nutritionAudio" data-action="pause" class="audio-btn">⏸️ Pause</button>
+                        <button data-audio="nutritionAudio" data-action="restart" class="audio-btn">🔄 Restart</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="calculator">
+                <h2>Hydration Calculator</h2>
+                <div class="calc-container">
+                    <div class="calc-input">
+                        <label for="weight">Your Weight (kg):</label>
+                        <input type="number" id="weight" placeholder="Enter weight" min="30" max="200" />
+                        <button id="calculateWater" class="submit-btn">Calculate</button>
+                    </div>
+                    <div class="calc-result">
+                        <h3 id="water-result">Recommended Daily Water: -- liters</h3>
+                        <p>Based on your weight, drink 30-35 ml of water per kg of body weight.</p>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <!-- FITNESS PAGE -->
+    <main id="fitness" class="page-tabs">
+        <section class="page-hero">
+            <h1>Fitness & Exercise Plans</h1>
+            <p>Transform your body with science-backed workout programs</p>
+        </section>
+
+        <section class="fitness-programs">
+            <h2>Choose Your Fitness Level</h2>
+            
+            <div class="program-card">
+                <div class="program-header">
+                    <span class="program-level">Level 1</span>
+                    <h3>Beginner Program</h3>
+                    <p class="program-duration">4-Week Starter Plan</p>
+                </div>
+                <div class="program-content">
+                    <div class="program-details">
+                        <h4>Workout Schedule</h4>
+                        <div class="schedule">
+                            <div class="day">
+                                <h5>Monday</h5>
+                                <p>Full Body Workout</p>
+                            </div>
+                            <div class="day">
+                                <h5>Tuesday</h5>
+                                <p>Cardio & Core</p>
+                            </div>
+                            <div class="day">
+                                <h5>Wednesday</h5>
+                                <p>Rest or Yoga</p>
+                            </div>
+                            <div class="day">
+                                <h5>Thursday</h5>
+                                <p>Full Body Workout</p>
+                            </div>
+                            <div class="day">
+                                <h5>Friday</h5>
+                                <p>Cardio & Core</p>
+                            </div>
+                            <div class="day">
+                                <h5>Weekend</h5>
+                                <p>Active Recovery</p>
+                            </div>
+                        </div>
+                        
+                        <div class="exercises">
+                            <h4>Key Exercises:</h4>
+                            <ul>
+                                <li>Bodyweight Squats - 3 sets of 12 reps</li>
+                                <li>Push-ups (knee) - 3 sets of 10 reps</li>
+                                <li>Plank - 3 sets of 30 seconds</li>
+                                <li>Walking Lunges - 3 sets of 10 each leg</li>
+                                <li>Brisk Walking - 20 minutes daily</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section class="calculator">
+                <h2>Calorie Burn Calculator</h2>
+                <div class="calc-container">
+                    <div class="calc-input">
+                        <label for="activity">Select Activity:</label>
+                        <select id="activity">
+                            <option value="walking">Walking (4 mph)</option>
+                            <option value="running">Running (6 mph)</option>
+                            <option value="cycling">Cycling (12-14 mph)</option>
+                            <option value="swimming">Swimming</option>
+                            <option value="weight">Weight Training</option>
+                        </select>
+                        
+                        <label for="duration">Duration (minutes):</label>
+                        <input type="number" id="duration" placeholder="30" min="10" max="180" />
+                        
+                        <label for="user-weight">Your Weight (kg):</label>
+                        <input type="number" id="user-weight" placeholder="70" min="40" max="150" />
+                        
+                        <button id="calculateCalories" class="submit-btn">Calculate Burn</button>
+                    </div>
+                    <div class="calc-result">
+                        <h3 id="calorie-result">Estimated Calories Burned: --</h3>
+                        <div class="calorie-info">
+                            <p>MET values used for calculation:</p>
+                            <ul>
+                                <li>Walking: 3.5 MET</li>
+                                <li>Running: 10 MET</li>
+                                <li>Cycling: 8 MET</li>
+                                <li>Swimming: 6 MET</li>
+                                <li>Weight Training: 5 MET</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <!-- MENTAL HEALTH PAGE -->
+    <main id="mental" class="page-tabs">
+        <section class="page-hero">
+            <h1>Mental Wellness Resources</h1>
+            <p>Nurture your mind, heal your soul, embrace peace</p>
+        </section>
+
+        <section class="meditation-section">
+            <h2>Guided Meditation & Mindfulness</h2>
+            
+            <div class="meditation-content">
+                <div class="meditation-audio">
+                    <h3>Calming Meditation</h3>
+                    <div class="audio-player">
+                        <audio id="meditationAudio" controls loop>
+                            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" type="audio/mpeg" />
+                            Your browser does not support the audio element.
+                        </audio>
+                        <div class="audio-controls">
+                            <button data-audio="meditationAudio" data-action="play" class="audio-btn">▶️ Play</button>
+                            <button data-audio="meditationAudio" data-action="pause" class="audio-btn">⏸️ Pause</button>
+                            <button data-audio="meditationAudio" data-action="restart" class="audio-btn">🔄 Restart</button>
+                        </div>
+                    </div>
+                    
+                    <div class="meditation-guide">
+                        <h4>Meditation Instructions:</h4>
+                        <ol>
+                            <li>Find a quiet, comfortable space</li>
+                            <li>Sit or lie down in a relaxed position</li>
+                            <li>Close your eyes and take deep breaths</li>
+                            <li>Focus on the audio guidance</li>
+                            <li>If your mind wanders, gently bring it back</li>
+                            <li>Practice for 5-10 minutes daily</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="stress-management">
+            <h2>Stress Management Techniques</h2>
+            
+            <div class="techniques-grid">
+                <div class="technique">
+                    <h3>1. Deep Breathing</h3>
+                    <p>4-7-8 Breathing Method:</p>
+                    <ul>
+                        <li>Inhale for 4 seconds</li>
+                        <li>Hold for 7 seconds</li>
+                        <li>Exhale for 8 seconds</li>
+                    </ul>
+                    <p><strong>Repeat 5 times</strong></p>
+                </div>
+                
+                <div class="technique">
+                    <h3>2. Progressive Muscle Relaxation</h3>
+                    <p>Tense and relax each muscle group:</p>
+                    <ol>
+                        <li>Start from toes</li>
+                        <li>Move upward to calves</li>
+                        <li>Continue to thighs, abdomen</li>
+                        <li>Finish with face muscles</li>
+                    </ol>
+                </div>
+                
+                <div class="technique">
+                    <h3>3. Mindful Walking</h3>
+                    <p>Practice during daily walks:</p>
+                    <ul>
+                        <li>Focus on each step</li>
+                        <li>Notice your surroundings</li>
+                        <li>Feel the ground beneath you</li>
+                        <li>Breathe rhythmically</li>
+                    </ul>
+                </div>
+                
+                <div class="technique">
+                    <h3>4. Journaling</h3>
+                    <p>Write daily for mental clarity:</p>
+                    <ul>
+                        <li>Morning pages (3 pages)</li>
+                        <li>Gratitude journal</li>
+                        <li>Emotion tracking</li>
+                        <li>Problem-solving writing</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="self-assessment">
+            <h2>Mental Well-being Check</h2>
+            <p>Rate how often you've experienced these in the last week (1=Rarely, 5=Very Often)</p>
+            
+            <form id="assessment-form">
+                <div class="assessment-question">
+                    <label>I felt anxious or worried:</label>
+                    <div class="rating">
+                        <input type="radio" name="anxiety" value="1" id="anxiety1">
+                        <label for="anxiety1">1</label>
+                        <input type="radio" name="anxiety" value="2" id="anxiety2">
+                        <label for="anxiety2">2</label>
+                        <input type="radio" name="anxiety" value="3" id="anxiety3">
+                        <label for="anxiety3">3</label>
+                        <input type="radio" name="anxiety" value="4" id="anxiety4">
+                        <label for="anxiety4">4</label>
+                        <input type="radio" name="anxiety" value="5" id="anxiety5">
+                        <label for="anxiety5">5</label>
+                    </div>
+                </div>
+                
+                <div class="assessment-question">
+                    <label>I had trouble sleeping:</label>
+                    <div class="rating">
+                        <input type="radio" name="sleep" value="1" id="sleep1">
+                        <label for="sleep1">1</label>
+                        <input type="radio" name="sleep" value="2" id="sleep2">
+                        <label for="sleep2">2</label>
+                        <input type="radio" name="sleep" value="3" id="sleep3">
+                        <label for="sleep3">3</label>
+                        <input type="radio" name="sleep" value="4" id="sleep4">
+                        <label for="sleep4">4</label>
+                        <input type="radio" name="sleep" value="5" id="sleep5">
+                        <label for="sleep5">5</label>
+                    </div>
+                </div>
+                
+                <div class="assessment-question">
+                    <label>I felt energetic and motivated:</label>
+                    <div class="rating">
+                        <input type="radio" name="energy" value="1" id="energy1">
+                        <label for="energy1">1</label>
+                        <input type="radio" name="energy" value="2" id="energy2">
+                        <label for="energy2">2</label>
+                        <input type="radio" name="energy" value="3" id="energy3">
+                        <label for="energy3">3</label>
+                        <input type="radio" name="energy" value="4" id="energy4">
+                        <label for="energy4">4</label>
+                        <input type="radio" name="energy" value="5" id="energy5">
+                        <label for="energy5">5</label>
+                    </div>
+                </div>
+                
+                <button type="button" id="calculateAssessment" class="submit-btn">Get Assessment</button>
+                
+                <div id="assessment-result" class="result-box">
+                    <h3>Your Mental Well-being Score: <span id="score">--</span></h3>
+                    <p id="score-message">Complete the assessment to see your results</p>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <!-- CONTACT PAGE -->
+    <main id="contact" class="page-tabs">
+        <section class="page-hero">
+            <h1>Contact HealthHub</h1>
+            <p>We're here to help you on your wellness journey</p>
+        </section>
+        
+        <div class="contact-container">
+            <section class="contact-form-section">
+                <h2>Send Us a Message</h2>
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="contact-name">Full Name *</label>
+                        <input type="text" id="contact-name" name="name" required placeholder="Enter your full name" />
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="contact-email">Email Address *</label>
+                        <input type="email" id="contact-email" name="email" required placeholder="your.email@example.com" />
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="contact-phone">Phone Number</label>
+                        <input type="tel" id="contact-phone" name="phone" placeholder="+91 9876543210" />
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="contact-subject">Subject *</label>
+                        <select id="contact-subject" name="subject" required>
+                            <option value="">Select a topic</option>
+                            <option value="nutrition">Nutrition & Diet Query</option>
+                            <option value="fitness">Fitness & Exercise</option>
+                            <option value="mental">Mental Health Support</option>
+                            <option value="general">General Inquiry</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="contact-message">Your Message *</label>
+                        <textarea id="contact-message" name="message" rows="6" required placeholder="Please describe your inquiry in detail..."></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="newsletter" name="newsletter" checked />
+                            Subscribe to our wellness newsletter
+                        </label>
+                    </div>
+                    
+                    <button type="button" id="submitContact" class="submit-btn">Send Message →</button>
+                    
+                    <div id="form-message" class="message-box"></div>
+                </form>
+            </section>
+            
+            <section class="contact-info-section">
+                <h2>Get in Touch</h2>
+                
+                <div class="contact-info">
+                    <div class="info-item">
+                        <div class="info-icon">📧</div>
+                        <div class="info-content">
+                            <h3>Email Us</h3>
+                            <p>info@healthhub.com</p>
+                            <p>support@healthhub.com</p>
+                            <p class="response-time">Response time: 24-48 hours</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">📱</div>
+                        <div class="info-content">
+                            <h3>Call Us On</h3>
+                            <p>+233 53 760 1628</p>
+                            <p>+233 53 534 6411</p>
+                            <p class="timing">Mon-Fri: 9 AM - 6 PM GMT</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">📍</div>
+                        <div class="info-content">
+                            <h3>Visit Us</h3>
+                            <p>HealthHub Wellness Center</p>
+                            <p>123 Wellness Street</p>
+                            <p>Greater Accra, WestHills Mall 110001</p>
+                            <p>Ghana</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="emergency-contacts">
+                    <h3>Emergency Health Contacts (India)</h3>
+                    <div class="emergency-grid">
+                        <div class="emergency-card">
+                            <h4>🚑 Ambulance</h4>
+                            <p>National: 102</p>
+                            <p>Delhi: 102 or 1099</p>
+                        </div>
+                        <div class="emergency-card">
+                            <h4>🧠 Mental Health</h4>
+                            <p>Vandrevala: 1860-266-2345</p>
+                            <p>iCall: 9152987821</p>
+                        </div>
+                        <div class="emergency-card">
+                            <h4>🏥 COVID Helpline</h4>
+                            <p>National: 1075</p>
+                            <p>Delhi: 1031</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+        <section class="faq-section">
+            <h2>Frequently Asked Questions</h2>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <h3>Q: Is HealthHub free to use?</h3>
+                    <p>A: Yes! All the information and resources on our website are completely free. We believe wellness education should be accessible to everyone.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Q: Do you provide personalized diet plans?</h3>
+                    <p>A: We provide general nutrition guidelines. For personalized diet plans, we recommend consulting with a registered dietitian or nutritionist.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Q: Are your fitness programs suitable for beginners?</h3>
+                    <p>A: Absolutely! We have specific beginner programs with detailed instructions and modifications for all fitness levels.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Q: How can I book an appointment with a wellness expert?</h3>
+                    <p>A: Please use the contact form above, and our team will connect you with certified wellness experts based on your needs.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>HealthHub</h3>
+                <p>Promoting holistic wellness through evidence-based practices</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home" data-page="home">Home</a></li>
+                    <li><a href="#nutrition" data-page="nutrition">Nutrition</a></li>
+                    <li><a href="#fitness" data-page="fitness">Fitness</a></li>
+                    <li><a href="#mental" data-page="mental">Mental Health</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#" class="social-link">📘 Facebook</a>
+                    <a href="#" class="social-link">📷 Instagram</a>
+                    <a href="#" class="social-link">🐦 Twitter</a>
+                    <a href="#" class="social-link">🎬 YouTube</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="currentYear"></span> Health & Wellness Hub. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
